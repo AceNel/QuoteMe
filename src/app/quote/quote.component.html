@@ -22,3 +22,4 @@
             <div class="card" id="crd" *ngFor='let quote of quotes;let i = index'>
                     <div class="card-title">
                             <h5 font color="yellow" *ngIf="showDescription">{{quote.name}}</h5></div>
+                            <button type="button" (click)="toggleQuote()" class="btn btn-primary">{{showDescription? "Hide": "Show"}} Quote Details</button>
