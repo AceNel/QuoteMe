@@ -16,7 +16,7 @@ export class QuoteComponent implements OnInit {
 
   ]
 
-  showDescription= false;//boolean setting to hide and display
+  showDescription = false;//boolean setting to hide and display
   addNewQuote(quote) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
