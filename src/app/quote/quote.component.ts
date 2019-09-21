@@ -16,6 +16,8 @@ export class QuoteComponent implements OnInit {
 
   ]
 
+  showDescription= false;//boolean setting to hide and display
+
   constructor() { }
 
   ngOnInit() {
