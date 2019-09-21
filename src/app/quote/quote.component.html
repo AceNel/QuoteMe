@@ -33,3 +33,19 @@
                                         </div>
                                         <div class="col-6" id="small">
                                           <p>Submitted by {{quote.submitter}}, {{quote.completeDate|dateCount}} days ago</p>
+                                        </div>
+                                        <div class="col-2">
+                                                <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+                                            </div>
+                                          </div>
+                                        </div>
+                            
+                                      </div>
+                                    </div>
+                            
+                            
+                                  </div>
+                            
+                            
+                                </div>
+                            
