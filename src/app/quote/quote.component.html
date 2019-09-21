@@ -20,3 +20,5 @@
           </div>
           <div class="row">
             <div class="card" id="crd" *ngFor='let quote of quotes;let i = index'>
+                    <div class="card-title">
+                            <h5 font color="yellow" *ngIf="showDescription">{{quote.name}}</h5></div>
