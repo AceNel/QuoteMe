@@ -16,6 +16,10 @@ export class VoteComponent implements OnInit {
     this.uvotes = this.uvotes + 1;//adds one on mouse click
   }
 
+  downVote(){
+    this.dvotes = this.dvotes + 1;//adds one per mouse click
+  }
+
   constructor() { }
 
   ngOnInit() {
