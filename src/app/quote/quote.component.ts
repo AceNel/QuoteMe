@@ -32,6 +32,10 @@ export class QuoteComponent implements OnInit {
     }
   }
 
+  toggleQuote() {
+    this.showDescription = !this.showDescription;//show or hide content
+  }
+
   constructor() { }
 
   ngOnInit() {
