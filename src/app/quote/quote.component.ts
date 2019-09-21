@@ -17,6 +17,12 @@ export class QuoteComponent implements OnInit {
   ]
 
   showDescription= false;//boolean setting to hide and display
+  addNewQuote(quote) {
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength + 1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
 
   constructor() { }
 
