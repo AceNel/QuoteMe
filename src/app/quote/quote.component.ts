@@ -24,6 +24,14 @@ export class QuoteComponent implements OnInit {
     this.quotes.push(quote)
   }
 
+  deleteQuote(isComplete, index) {
+    if (isComplete) {
+      let toDelete = confirm(`Do you want to delete this Quote? ${this.quotes[index].name}`)//alert
+
+      if (toDelete) { this.quotes.splice(index, 1) }//removes quote
+    }
+  }
+
   constructor() { }
 
   ngOnInit() {
