@@ -5,6 +5,7 @@ Quotes- an application where users can create quotes and have those quotes voted
 ## Author Name
 
 Nelson Kimani
+nelsonkimani96@gmail.com
 
 ## Setup/Installation Requirements
 1. Internet connection.
@@ -22,3 +23,7 @@ There are Currently no know bug.
 To Contribute:
 1. Fork this repo:https://github.com/AceNel/QuoteMe.git
 2. Clone this repo to your machine:https://github.com/AceNel/QuoteMe.git
+
+## License and copyright Information
+MIT License
+Copyright (c) 2019 Nelson Kimani
